@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
   buttonStyle: {
     height: 50,
     flex: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   butnTextStyle: {
     fontSize: 20,
-    alignSelf:'center'
   }
 });
 
