@@ -51,12 +51,12 @@ class SigninForm extends React.Component {
           onChangeText={password => this.setState({ password })}
           secureTextEntry
         />
-        {this.state.errorMsg
-          ? <Text style={styles.errorStyle}>Login failed, try another email and password</Text>
-          : null}
         <CardSection>
           {this.renderButton()}
         </CardSection>
+        {this.state.errorMsg
+          ? <Text style={styles.errorStyle}>Login failed, try another email and password</Text>
+          : null}
       </Card>
     );
   }
